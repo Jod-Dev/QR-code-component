@@ -22,7 +22,6 @@ body {
 
 footer {
   font-size: 11px;
-  text-align: center;
 }
 
 footer a {
@@ -50,9 +49,14 @@ p.description {
   color: var(--grayish-blue);
 }
 
-.content {
-  max-width: 375px;
+.container,
+img {
   border-radius: 5%;
+
+}
+
+.container {
+  max-width: 375px;
   background: var(--white);
   padding: 1em;
 }
