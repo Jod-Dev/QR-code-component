@@ -20,12 +20,12 @@ body {
   font-size: 15px;
 }
 
-.attribution {
+footer {
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
 
@@ -33,12 +33,12 @@ a {
   text-decoration: none;
 }
 
-p.title,
+h1,
 p.description {
   padding: 0 1.5em;
 }
 
-p.title {
+h1 {
   font-size: 1.3rem;
   font-weight: 700;
   color: var(--dark-blue);
@@ -62,7 +62,7 @@ img {
   border-radius: 5%;
 }
 
-.container {
+main {
   margin: 0 auto;
   display: grid;
   place-items: center;
@@ -72,7 +72,7 @@ img {
 }
 
 @media only screen and (min-width: 1440px) {
-  .container {
+  main {
     width: 100%;
 
   }
