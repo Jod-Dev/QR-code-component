@@ -70,7 +70,7 @@ main {
   margin: 0 auto;
   display: grid;
   place-items: center;
-  height: 200vh;
+  height: 100vh;
   background: #D6E1F0;
   width: 50%;
 }
